@@ -4,7 +4,7 @@ import {
   Blog,
   About,
   Possibility,
-  Feature,
+  Features,
   Header,
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
@@ -20,7 +20,7 @@ function App() {
       </div>
       <Brand />
       <About />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
